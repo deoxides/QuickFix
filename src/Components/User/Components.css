@@ -1,0 +1,44 @@
+.material-icons{
+    color:#37447E;
+    margin: 0px 10px 0px 10px;
+}
+
+#Profile > *{
+    margin-top: 10px;
+}
+
+.profile-avatar{
+    width: 7.68rem;
+    background: #ffffff;
+    box-shadow: -4px -4px 4px rgba(250, 247, 255, 0.25), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius:50%;
+}
+
+.profile-enterprise{
+    color:#505F98;
+}
+
+.profile-name{
+    color:#929ECC;
+}
+
+.nav-link{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background:#E7ECFF;
+    color: #929ECC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(218, 221, 226, 0.25);
+}
+.nav-link.active{
+    background: #F3F5FF;
+    box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.25), inset -4px -4px 4px rgba(255, 255, 255, 0.25);
+}
+
+
+.spinner-border{
+    width: 3rem;
+    height: 3rem;
+}
+
+

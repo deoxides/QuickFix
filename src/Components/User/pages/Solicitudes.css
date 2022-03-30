@@ -1,0 +1,16 @@
+.form-options{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+.request-form{
+    height: auto;
+    max-height: 760px;
+}
+
+.request-details{
+    max-height: 100%;
+}
+textarea{
+    height: 18.75rem;
+}

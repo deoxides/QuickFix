@@ -1,0 +1,16 @@
+.main{
+    padding-bottom: 145px;
+    overflow: hidden;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0EDFF;
+}
+#page{
+    min-height: 100vh;
+}
+.fitContent{
+    height: min-content;
+}

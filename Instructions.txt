@@ -1,0 +1,27 @@
+Carpetas
+    Build: carpeta contenedora del proyecto compilado
+    Node_modules: Modulos necesarios para ejecutar los distintos componentes(+info en package.json)
+    Public: Carpeta con archivos estaticos
+    Src: codigo fuente de la aplicacion
+        Components: componentes construidos en js con la libreria ReactJs
+        Redux: componentes orientados al uso de Redux para manejar estados en la app utilizando multiples librerias de redux y react-redux
+    test: Carpeta con las distintas pruebas
+
+Archivos
+    .env: archivo de configuracion para elegir el servidor de la API por defecto localhost
+    craco.config.js: archivo de configuracion de craco por defecto vacio
+    <----No editar---->
+    package-lock.json: archivo de configuracion de recursos de la aplicacion.
+    package.json: archivo de configuracion de la aplicacion
+
+
+Como ejecutar:
+1.- instalar node y npm (Node Package Manager)
+1.- comprobar que se encuentren todos los modulos de nodeJS con "" npm update ""
+2.- ubicarse en la raiz del proyecto y ejecutar el comando "" npm start ""
+3.- abrir el navegador en el servidor localhost:3000 
+
+
+Testing (no realizado):
+1.- Ubicarse en la carpeta test 
+2.- Ejecutar el comando "" npm run test"" y se ejecutaran las pruebas con jest

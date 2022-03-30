@@ -1,0 +1,104 @@
+
+.content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.content-middle{
+    display: flex;
+    align-items: center;
+}
+
+.bg-opacity-80{
+    background-color:rgba(255, 255, 255, 0.8)
+}
+
+.img-box{
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero_img{
+    position: absolute;
+    left: -30%;
+    max-height: 760px;
+}
+
+.designer_img{
+    position: absolute;
+    right: 0%;
+    max-height: 37.5rem;
+    z-index: -1;
+}
+
+.pricing_img{
+    padding: 0%;
+    top:0px;
+    position: absolute;
+    min-height: 45.18rem;
+    z-index: -1;
+}
+
+/* Para Tablet */
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .hero_img{
+        top:10%;
+        left: 10%;
+        max-height: 27.5rem;
+    }
+    .designer_img{
+        background-position: 7cm;
+    }
+
+    .pricing_img{
+        background-position: center;
+        min-height: 74.18rem;
+    }
+    .card-body h5{
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .card-body p{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+    /* Para Mobile */
+@media only screen and (max-width: 740px) and (min-width: 360px) {
+    #Hero{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 100%;
+    }
+    .content{
+        min-height: 36.97rem;
+    }
+
+    .hero_img{
+        left: -50%;
+        max-height: 31.5rem;
+    }
+    .designer_img{
+        display: none;
+    }
+
+    .pricing_img{
+        background-position: 0cm;
+        min-height: 58rem;
+    }
+
+    .card-text{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+    }
+}

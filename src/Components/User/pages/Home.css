@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap');
+
+
+
+.stats{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 335px;
+  gap: 15px;
+}
+
+#summary{
+  grid-column: 1;
+}
+#last{
+  grid-column: 2/4;
+}
+
+#checklist{
+  grid-column: 1/3;
+}
+#emergency{
+  grid-column: 3/4;
+}
+
+.stats-summary{
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-summary > span,li {
+  font-family: 'Montserrat','sans-seriff';
+}
+
+
+#items, #chat{
+  background-color: white;
+  height: 80%;
+  overflow-y: scroll;
+}
+.list-group-item{
+  position: unset!important;
+}
+@media only screen and (max-width:768px) and (min-width: 546px) {
+  .stats{
+    gap: 40px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 224px;
+  }
+  #items, #chat{
+    height: 149px;
+  }
+
+}
+
+
+@media only screen and (max-width:545px) {
+
+  .stats{
+    gap: 40px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4,224px);
+  }
+  #summary{
+    grid-column: 1;
+  }
+  #last{
+    grid-column: 1;
+  }
+  
+  #checklist{
+    grid-column: 1;
+  }
+  #emergency{
+    grid-column: 1;
+  }
+
+  
+}
+
+

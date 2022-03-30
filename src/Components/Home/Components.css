@@ -1,0 +1,26 @@
+.card{
+    border: 0;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+}
+.inline.reverse{
+    justify-content: space-between;
+}
+.inline > *{
+    margin: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0EDFF;
+}
+
+
